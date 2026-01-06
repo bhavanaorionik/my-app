@@ -1,30 +1,49 @@
-//const App = () =>{
- // return(
-   // <div>
-     // <h1>Hello world..!</h1>
-    //</div>
-  //)
-//}
-import React,{useState} from "react";
-import "./App.css";
 
-function App(){
-  const[count,setCount] = useState(0);
+// import React,{useState} from "react";
+// import "./App.css";
 
-  return(
-    <div style={{textAlign: "center", marginTop: "50px"}}>
-      <h1 style={{color: "blue"}}>Counter App</h1>
-      <h2>{count}</h2>
+// function App(){
+//   const[count,setCount] = useState(0);
 
-      <button className="Increase" onClick={() => setCount(count + 1)}>
-        Increase
-      </button>
-      <button  className="Decrease" onClick={() => setCount(count - 1)}>
-        Decrease
-      </button>
-      <button onClick={() => setCount(0)}>Reset</button>
+//   return(
+//     <div style={{textAlign: "center", marginTop: "50px"}}>
+//       <h1 style={{color: "blue"}}>Counter App</h1>
+//       <h2>{count}</h2>
+
+//       <button className="Increase" onClick={() => setCount(count + 1)}>
+//         Increase
+//       </button>
+//       <button  className="Decrease" onClick={() => setCount(count - 1)}>
+//         Decrease
+//       </button>
+//       <button className="reset" onClick={() => setCount(0)}>
+//         Reset
+//       </button>
    
+//     </div>
+//   );
+// }
+// export default App;
+
+
+// import Counter from "./components/Counter";
+
+// const App = () => {
+//   return(
+//     <div>
+// <Counter/>
+//     </div>
+//   );
+// }
+// export default App;
+
+
+import ColorButton from "./components/colorButton";
+ const App = () => {
+  return(
+    <div>
+      <ColorButton />
     </div>
   );
-}
-export default App;
+ };
+ export default App;
