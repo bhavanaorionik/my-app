@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-const Input = () =>{
+const InputHandling = () =>{
     const[text, setText] = useState("");
     return(
 
@@ -8,7 +8,7 @@ const Input = () =>{
 
             <h1>Handling Input</h1>
 
-            <Input type="text" placeholder="Type Somthing"
+            <input type="text" placeholder="Type Somthing"
              value={text}
              onChange={(e)=>setText(e.target.value)}/>
 
@@ -18,4 +18,4 @@ const Input = () =>{
     );
 
 }
-export default Input;
+export default InputHandling;
