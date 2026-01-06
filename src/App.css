@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: darkgray;
+  font-family: sans-serif;
+
+}
+button{
+  padding: 1%;
+  width: 10;
+  color: white;
+
+}
+button:hover {
+  opacity: 10;
+
+}
+.Increase{
+  background-color:rgb(14, 6, 91);
+ 
+
+}
+.Decrease{
+  background-color: darkgreen;
+  
+}
+.reset{
+  
+}
